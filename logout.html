@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: blanchedalmond;
+        color: black;
+    }
+</style>
+
+<body>
+    <nav class="right-side">
+        <li><a href="main2.html" style="background-color: black; color: white;" data-bs-target="#login">HOME</a></li>
+
+    </nav>
+    <br>
+    <p>
+        You are inside your login page</p>
+    <br>
+
+    <p><b><u>YOUR LOGIN DETAILS</u></b></p>
+    <p>Name:</p>
+    <script>
+        var data = sessionStorage.getItem('maindata');
+        document.writeln("hey ", data, " welcome to Your Page!")
+    </script>
+    </div>
+
+    <BR></BR>
+    <br>
+    <br>
+    <div>
+        <a href="log.html" style="background-color: red; color:black">LOGOUT</a>
+    </div>
+
+
+</body>
+<script type="text/javascript" src="./script.js"></script>
+
+
+
+</html>
